@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.section1{
+    background: green;    
+}
+.section2{
+    background: grey;    
+}
+.section3{
+    background: blue;    
+}
+.num_sec_1{
+    color: white;
+}
+.tabela1{
+    margin: 0 auto 0 auto;
+    width: 500px;
+}
+tbody td:last-child{
+    text-align: left;
+}
+tbody td{
+    text-align: center;
+}
+/*
+h2 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+h1 {
+    font-size: 60px;
+    font-family: Merriweather;
+    color:#252525;
+    font-weight: 500;
+    margin: 0 auto 5px auto;
+    width: 80%;
+
+}
+h4 {
+    font-size: 20px;
+    color: #666;
+    margin: 0 auto 5px auto;
+    width: 80%;
+}
+.topo{
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+    border-bottom: 1px;
+}
+.conteudo{
+    margin: 40px auto 5px auto;
+    width: 80%;
+}
+img{
+    width: 60%;
+}
+p{
+    line-height: 1.8;
+    color: rgba(25, 25, 25, 0.7);
+    font-family: Merriweather;
+}*/
