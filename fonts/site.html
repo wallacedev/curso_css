@@ -3,29 +3,99 @@
 
     <head>
       <meta charset="utf8">
-       <title>Tabela simples
+       <title>Site
        </title>
+       <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <style>
-        img{
-            width: 100px;
+        body{
+            margin: 0;
+            padding: 0;
         }
-        figure{
+        header{
+            border: 0;
+            height: 150px;
+            /*background-image: url("https://media.giphy.com/media/RHpf4nRzaZrmE/giphy.gif");*/
+            background-image: url("matriz.gif");
+            /*background-image: linear-gradient(red, blue);*/
+        }
+        nav{
+            height:40px;
+            background-image: linear-gradient(black, white);
+            color: white;
+        }
+        section{
+            height: 300px;
+            width: 70%;
             float: left;
         }
-        h2{
+        aside{
+            height: 300px;
+        }
+        footer{
+            border: 2px hotpink solid;
+            height: 200px;
             clear: both;
         }
+        h2{
+            font-family: 'Orbitron', sans-serif;
+            color: white;
+            font-size: 40;
+            margin: 0;
+            padding: 75px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            margin: 0;
+            display: block;
+            width: 90px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 10px;
+            height: 40px;
+            box-sizing: border-box;
+        }
+        li a:hover {
+            background-color: #064700;
+        }
+        h1 {
+            font-size: 80px;
+            color: #555555;
+            margin: 2px 0 -20px 0 !important;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 400;
+        }
+
+        
     </style>   
        
 </head>
 <body>
 
-   <header></header>
-<nav></nav>
+<header>
+    <h2>WEB TRICKS</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JS</a></li>
+        <li><a href="#">PHP</a></li>
+    </ul>   
+</nav>
 <section>
-    <header></header>
-    <article></article>
-    <footer></footer>
+    <article>
+        <h1>HTML</h1>
+        <span class="artigo">The language for building web pages</span>
+    </article>
 </section>
 <aside></aside>
 <footer></footer>
